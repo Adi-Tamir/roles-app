@@ -50,3 +50,4 @@ To set up the project on your machine, follow these steps:
 3. Make sure your code is runnable.
 4. If you have any questions, feel free to ask.
 5. Good Luck :)
+6. Have fun!
