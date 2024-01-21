@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy": "https://apulalula-api.up.railway.app/",
   "scripts": {
     "dev": "vite",
     "test": "jest",
@@ -13,8 +14,11 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.11.1",
+    "@stitches/react": "^1.2.8",
+    "@tanstack/react-query": "^5.17.19",
     "antd": "^5.13.2",
     "axios": "^1.2.1",
+    "query": "github:tanstack/react-query",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

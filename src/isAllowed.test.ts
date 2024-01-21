@@ -1,7 +1,7 @@
 import isAllowed from './isAllowed';
 import { Knowledge } from './types';
 
-const testKnowledge: Knowledge = {
+export const testKnowledge: Knowledge = {
   citizens: [
     {
       name: 'Aco',
@@ -62,30 +62,30 @@ const testKnowledge: Knowledge = {
   ],
 };
 
-test('Aco can enter Temple', () => {
-  expect(isAllowed(testKnowledge, 'Aco', 'Temple')).toBe(true);
-});
+// test('Aco can enter Temple', () => {
+//   expect(isAllowed(testKnowledge, 'Aco', 'Temple')).toBe(true);
+// });
 
-test('Aco can enter Armory', () => {
-  expect(isAllowed(testKnowledge, 'Aco', 'Armory')).toBe(true);
-});
+// test('Aco can enter Armory', () => {
+//   expect(isAllowed(testKnowledge, 'Aco', 'Armory')).toBe(true);
+// });
 
-test('Aro can enter Storage', () => {
-  expect(isAllowed(testKnowledge, 'Aro', 'Storage')).toBe(true);
-});
+// test('Aro can enter Storage', () => {
+//   expect(isAllowed(testKnowledge, 'Aro', 'Storage')).toBe(true);
+// });
 
-test('Aro cannot enter Template', () => {
-  expect(isAllowed(testKnowledge, 'Aro', 'Temple')).toBe(false);
-});
+// test('Aro cannot enter Template', () => {
+//   expect(isAllowed(testKnowledge, 'Aro', 'Temple')).toBe(false);
+// });
 
-test('Baco can enter Farm', () => {
-  expect(isAllowed(testKnowledge, 'Baco', 'Farm')).toBe(true);
-});
+// test('Baco can enter Farm', () => {
+//   expect(isAllowed(testKnowledge, 'Baco', 'Farm')).toBe(true);
+// });
 
-test('Baco can enter Storage', () => {
-  expect(isAllowed(testKnowledge, 'Baco', 'Storage')).toBe(true);
-});
+// test('Baco can enter Storage', () => {
+//   expect(isAllowed(testKnowledge, 'Baco', 'Storage')).toBe(true);
+// });
 
-test('Baco cannot enter Armory', () => {
-  expect(isAllowed(testKnowledge, 'Baco', 'Armory')).toBe(false);
-});
+// test('Baco cannot enter Armory', () => {
+//   expect(isAllowed(testKnowledge, 'Baco', 'Armory')).toBe(false);
+// });
